@@ -1,0 +1,43 @@
+{
+   "mssv": "2A202603043",
+   "ten": "LeVietLong",
+   "pool_version": "d04-k5-v2",
+   "cvat_user": "longtk292",
+   "project": "d04-keypoint",
+   "persons": [
+      "000000164659.jpg",
+      "000000196283.jpg",
+      "000000314154.jpg",
+      "000000429594.jpg",
+      "000000433787.jpg",
+      "000000030960.jpg",
+      "000000091637.jpg",
+      "000000220045.jpg",
+      "000000311300.jpg",
+      "000000359340.jpg",
+      "000000438099.jpg",
+      "000000012552.jpg"
+   ],
+   "faces": [
+      "face_141135.jpg",
+      "face_300399.jpg",
+      "face_496353.jpg",
+      "face_223746.jpg",
+      "face_476363.jpg",
+      "face_249336.jpg",
+      "face_99874.jpg",
+      "face_279764.jpg"
+   ],
+   "tasks": {
+      "persons": {
+         "task_id": 11,
+         "job_id": 11,
+         "task_name": "persons-LeVietLong"
+      },
+      "faces": {
+         "task_id": 12,
+         "job_id": 12,
+         "task_name": "faces-LeVietLong"
+      }
+   }
+}
