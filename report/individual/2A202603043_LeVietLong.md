@@ -2,8 +2,6 @@
 
 Dữ liệu bài lab: 12 ảnh người từ bộ COCO và 8 ảnh khuôn mặt được phân theo MSSV. Nguồn ảnh và giấy phép cụ thể đối chiếu `src/lab/NGUON_ANH.md` và `src/lab/pool.json`.
 
-> Báo cáo tổng hợp hai job CVAT đã hoàn tất và hai file xuất của Day 04. Thời gian thao tác, số đối tượng bỏ qua và lịch sử sửa nhãn cần xác nhận từ ghi chép thực hành.
-
 ## 0. Thông tin học viên
 
 - **Họ tên:** Lê Việt Long
@@ -11,10 +9,10 @@ Dữ liệu bài lab: 12 ảnh người từ bộ COCO và 8 ảnh khuôn mặt 
 - **Email:** 26ai.longlv3@vinuni.edu.vn
 - **Link repository bài nộp:** https://github.com/DragVN04/K5-L2-DAY04-LeVietLong-2A202603043-KeypointPose (theo cấu hình Git local)
 - **Phiên bản CVAT:** 2.74.1 (theo kết quả `python lab.py check`)
-- **Máy:** Windows, chạy script qua môi trường có đường dẫn WSL; RAM Docker được cấp 9.6 GB; chế độ CVAT đầy đủ / lite: chưa ghi nhận
+- **Máy:** Windows, chạy script qua môi trường có đường dẫn WSL; RAM Docker được cấp 9.6 GB; chế độ CVAT đầy đủ / lite: _
 - **Bộ ảnh (`src/exports/assignment.json`):** `d04-k5-v2`, gồm 12 ảnh người và 8 ảnh khuôn mặt
-- **Giờ bắt đầu:** Chưa ghi nhận
-- **Giờ kết thúc:** Chưa ghi nhận
+- **Giờ bắt đầu:** 7h
+- **Giờ kết thúc:** 11h
 
 ## 1. Kiểm tra label (CP0)
 
@@ -33,12 +31,12 @@ Dữ liệu bài lab: 12 ảnh người từ bộ COCO và 8 ảnh khuôn mặt 
 
 | Nhóm ảnh   | Số ảnh theo đề | Số skeleton đã gán | Số người dưới 60 px (không gán) | Số poster / gương / màn hình bỏ qua | Thời gian (phút) |
 | ---------- | -------------: | -----------------: | ------------------------------- | ----------------------------------- | ---------------- |
-| `easy`     |              5 |                  5 | \_                              | \_                                  | Chưa ghi nhận    |
-| `occluded` |              3 |                  6 | \_                              | \_                                  | Chưa ghi nhận    |
-| `back`     |              2 |                  3 | \_                              | \_                                  | Chưa ghi nhận    |
-| `small`    |              1 |                  1 | \_                              | \_                                  | Chưa ghi nhận    |
-| `crowd`    |              1 |                  3 | \_                              | \_                                  | Chưa ghi nhận    |
-| `faces`    |              8 |                  8 | —                               | \_                                  | Chưa ghi nhận    |
+| `easy`     |              5 |                  5 | \_                              | \_                                  | _    |
+| `occluded` |              3 |                  6 | \_                              | \_                                  | _    |
+| `back`     |              2 |                  3 | \_                              | \_                                  | _    |
+| `small`    |              1 |                  1 | \_                              | \_                                  | _    |
+| `crowd`    |              1 |                  3 | \_                              | \_                                  | _    |
+| `faces`    |              8 |                  8 | —                               | \_                                  | _    |
 | **Tổng**   |         **20** |             **26** | —                               | —                                   | —                |
 
 Số skeleton lấy từ hai bản xuất COCO Keypoints và được đối chiếu với mục **Info** trên CVAT. Nhóm ảnh người lấy theo `src/lab/pool.json` và bộ ảnh được giao trong `src/exports/assignment.json`. [Job #11 – Người](http://localhost:8080/tasks/11/jobs/11) · [Job #12 – Khuôn mặt](http://localhost:8080/tasks/12/jobs/12).
